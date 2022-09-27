@@ -5,11 +5,25 @@ description = ""
 authors = ["direpeacock <dire.d.peacock@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.12"
 diffusers = "^0.3.0"
+transformers = "^4.22.1"
+scipy = "^1.9.1"
+ftfy = "^6.1.1"
+ipywidgets = ">=7,<8"
+Pillow = "^9.2.0"
+opencv-python = "^4.6.0"
+jupyterlab = "^3.4.7"
+jupyter-http-over-ws = "^0.0.8"
+torchvision = "^0.13.1"
+torch = "^1.12.1"
+
+
 
 [tool.poetry.dev-dependencies]
+black = "^22.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+

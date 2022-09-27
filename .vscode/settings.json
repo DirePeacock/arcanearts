@@ -1,0 +1,17 @@
+{
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    // "python.venvPath": "/c/ProgramData/Anaconda3/envs",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    // "jupyter.debugJustMyCode": false,
+    // "python.defaultInterpreterPath": "${env:$MY_VENV_SPACE}/Scripts/python",
+    // "python.defaultInterpreterPath": "/c/ProgramData/Anaconda3/envs/arcanevenv/python",
+    // "python.pythonPath": "/c/ProgramData/Anaconda3/envs/arcanevenv/python",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false,
+    // "terminal.integrated.fontSize": 28
+}
